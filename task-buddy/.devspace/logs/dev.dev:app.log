@@ -1,0 +1,391 @@
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T16:01:50+02:00"}
+{"level":"warning","msg":"dev:app Pod task-buddy-devspace-5966464c45-26r77: 0/1 nodes are available: 1 node(s) had untolerated taint {node.kubernetes.io/unreachable: }. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling. (FailedScheduling)","time":"2023-09-23T16:02:01+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:02:01+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:02:12+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:02:22+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:02:33+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:02:43+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T16:03:02+02:00"}
+{"level":"warning","msg":"dev:app Pod task-buddy-devspace-5966464c45-26r77: 0/1 nodes are available: 1 node(s) had untolerated taint {node.kubernetes.io/unreachable: }. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling. (FailedScheduling)","time":"2023-09-23T16:03:13+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:03:13+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:03:24+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:03:34+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:03:45+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:03:55+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:04:06+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:04:16+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:04:27+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:04:37+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:04:48+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:04:58+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:05:09+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:05:19+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:05:30+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-5966464c45-26r77 has status: Pending","time":"2023-09-23T16:05:40+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T16:07:18+02:00"}
+{"level":"warning","msg":"dev:app Pod task-buddy-devspace-566764cb6b-jxlpk: 0/1 nodes are available: 1 node(s) had untolerated taint {node.kubernetes.io/unreachable: }. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling. (FailedScheduling)","time":"2023-09-23T16:07:29+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:07:29+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:07:40+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:07:50+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:08:01+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:08:11+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:08:22+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:08:32+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:08:43+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:08:53+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:09:04+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:09:14+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:09:25+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:09:35+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:09:46+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:09:56+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:10:07+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:10:17+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:10:28+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:10:38+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:10:49+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:10:59+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:11:10+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:11:20+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:11:31+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:11:41+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:11:52+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:12:02+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:12:13+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:12:23+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:12:34+02:00"}
+{"level":"warning","msg":"dev:app Pod task-buddy-devspace-566764cb6b-jxlpk: 0/1 nodes are available: 1 node(s) had untolerated taint {node.kubernetes.io/unreachable: }. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling. (FailedScheduling)","time":"2023-09-23T16:12:44+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:12:44+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:12:55+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:13:05+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:13:16+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:13:26+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:13:37+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:13:47+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:13:58+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:14:08+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:14:19+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:14:29+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:14:40+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:14:50+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:15:01+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:15:11+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:15:22+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:15:32+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:15:43+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:15:53+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:16:04+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:16:14+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-566764cb6b-jxlpk has status: Pending","time":"2023-09-23T16:16:25+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T16:16:54+02:00"}
+{"level":"warning","msg":"dev:app Pod task-buddy-7c8f85b7fc-n7vmf: Readiness probe failed: Get \"http://10.42.0.82:8080/actuator/health/readiness\": dial tcp 10.42.0.82:8080: connect: connection refused (Unhealthy)","time":"2023-09-23T16:17:04+02:00"}
+{"level":"warning","msg":"dev:app Pod task-buddy-7d64db67b7-8ntsc: Failed to pull image \"ghcr.io/ammbra/task-buddy:1.0\": rpc error: code = Unknown desc = Error response from daemon: Head \"https://ghcr.io/v2/ammbra/task-buddy/manifests/1.0\": denied (Failed)","time":"2023-09-23T16:17:04+02:00"}
+{"level":"warning","msg":"dev:app Pod task-buddy-7d64db67b7-8ntsc: Error: ErrImagePull (Failed)","time":"2023-09-23T16:17:04+02:00"}
+{"level":"warning","msg":"dev:app DevSpace still couldn't find any Pods that match the selector. DevSpace will continue waiting, but this operation might timeout","time":"2023-09-23T16:17:04+02:00"}
+{"level":"warning","msg":"dev:app DevSpace still couldn't find any Pods that match the selector. DevSpace will continue waiting, but this operation might timeout","time":"2023-09-23T16:17:15+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-f86dc5c49-q4627 has status: ContainerCreating","time":"2023-09-23T16:17:25+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-q4627","time":"2023-09-23T16:17:26+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:1099' as soon as application will be started","time":"2023-09-23T16:17:26+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 1099 -\u003e 1099","time":"2023-09-23T16:17:26+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T16:17:33+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-q4627","time":"2023-09-23T16:17:34+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:1099' as soon as application will be started","time":"2023-09-23T16:17:34+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 1099 -\u003e 1099","time":"2023-09-23T16:17:34+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T16:18:59+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-q4627","time":"2023-09-23T16:19:00+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:1099' as soon as application will be started","time":"2023-09-23T16:19:00+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 1099 -\u003e 1099","time":"2023-09-23T16:19:01+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T16:24:03+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-q4627","time":"2023-09-23T16:24:03+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:1099' as soon as application will be started","time":"2023-09-23T16:24:03+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 1099 -\u003e 1099","time":"2023-09-23T16:24:04+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: ./ \u003c-\u003e ./","time":"2023-09-23T16:24:05+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T16:24:05+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T16:24:05+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T16:36:19+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-q4627","time":"2023-09-23T16:36:20+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:1099' as soon as application will be started","time":"2023-09-23T16:36:20+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 1099 -\u003e 1099","time":"2023-09-23T16:36:20+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T16:36:37+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fkdsq","time":"2023-09-23T16:36:38+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:1099' as soon as application will be started","time":"2023-09-23T16:36:38+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 1099 -\u003e 1099","time":"2023-09-23T16:36:39+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: ./ \u003c-\u003e ./","time":"2023-09-23T16:36:40+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T16:36:40+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T16:36:41+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T16:47:50+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fkdsq","time":"2023-09-23T16:47:51+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:1099' as soon as application will be started","time":"2023-09-23T16:47:51+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T16:47:51+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-23T16:47:52+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T16:47:52+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T16:47:53+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T16:54:13+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fkdsq","time":"2023-09-23T16:54:14+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:1099' as soon as application will be started","time":"2023-09-23T16:54:14+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T16:54:14+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-23T16:54:15+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T16:54:15+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T16:54:16+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T17:01:53+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fkdsq","time":"2023-09-23T17:01:53+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:1099' as soon as application will be started","time":"2023-09-23T17:01:53+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T17:01:54+02:00"}
+{"level":"info","msg":"dev:app ssh   Port forwarding started on: 10212 -\u003e 8022","time":"2023-09-23T17:01:55+02:00"}
+{"level":"info","msg":"dev:app proxy Port forwarding started on: 10770 \u003c- 10567","time":"2023-09-23T17:01:56+02:00"}
+{"level":"info","msg":"dev:app ssh   Use 'ssh app.task-buddy.devspace' to connect via SSH","time":"2023-09-23T17:01:56+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T17:04:33+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fkdsq","time":"2023-09-23T17:04:34+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:1099' as soon as application will be started","time":"2023-09-23T17:04:34+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T17:04:35+02:00"}
+{"level":"info","msg":"dev:app proxy Port forwarding started on: 11967 \u003c- 10567","time":"2023-09-23T17:04:37+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T17:05:01+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fkdsq","time":"2023-09-23T17:05:01+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:1099' as soon as application will be started","time":"2023-09-23T17:05:01+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T17:05:02+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-fkdsq (pod:container)","time":"2023-09-23T17:05:02+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T17:05:24+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fkdsq","time":"2023-09-23T17:05:25+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T17:05:25+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T17:05:25+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-fkdsq (pod:container)","time":"2023-09-23T17:05:26+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T17:17:24+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fkdsq","time":"2023-09-23T17:17:25+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T17:17:25+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T17:17:25+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-fkdsq (pod:container)","time":"2023-09-23T17:17:26+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T17:21:09+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fkdsq","time":"2023-09-23T17:21:10+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T17:21:10+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T17:21:10+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-fkdsq (pod:container)","time":"2023-09-23T17:21:11+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T17:21:40+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fjq8m","time":"2023-09-23T17:21:41+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T17:21:41+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T17:21:42+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-fjq8m (pod:container)","time":"2023-09-23T17:21:42+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T17:31:49+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fjq8m","time":"2023-09-23T17:31:50+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T17:31:50+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T17:31:50+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-fjq8m (pod:container)","time":"2023-09-23T17:31:51+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T17:40:16+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fjq8m","time":"2023-09-23T17:40:16+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T17:40:16+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T17:40:17+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-fjq8m (pod:container)","time":"2023-09-23T17:40:17+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T17:40:52+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-94d7f","time":"2023-09-23T17:40:53+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T17:40:53+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T17:40:54+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-94d7f (pod:container)","time":"2023-09-23T17:40:54+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T17:45:37+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-v2g4k","time":"2023-09-23T17:45:38+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T17:45:38+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T17:45:39+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-v2g4k (pod:container)","time":"2023-09-23T17:45:40+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T17:58:22+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-v2g4k","time":"2023-09-23T17:58:23+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T17:58:23+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T17:58:23+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-v2g4k (pod:container)","time":"2023-09-23T17:58:24+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T18:04:22+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-v2g4k","time":"2023-09-23T18:04:23+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T18:04:23+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T18:04:23+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-23T18:04:28+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T18:04:28+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T18:04:29+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T19:04:54+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fqllx","time":"2023-09-23T19:04:56+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T19:04:56+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T19:04:57+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-23T19:05:02+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T19:05:02+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T19:05:03+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T19:13:31+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-fqllx","time":"2023-09-23T19:13:32+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T19:13:32+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T19:13:32+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-23T19:13:33+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T19:13:33+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T19:13:34+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T19:28:25+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-wm84d","time":"2023-09-23T19:28:27+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T19:28:27+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T19:28:28+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-23T19:28:33+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T19:28:33+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T19:28:34+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T19:37:43+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-smqtl","time":"2023-09-23T19:37:44+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T19:37:44+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T19:37:45+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-23T19:37:50+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T19:37:50+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T19:37:51+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T20:06:18+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-smqtl","time":"2023-09-23T20:06:19+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T20:06:19+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T20:06:19+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-23T20:06:20+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T20:06:20+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T20:06:21+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T20:07:37+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-9srwv","time":"2023-09-23T20:07:39+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T20:07:39+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T20:07:39+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-23T20:07:45+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T20:07:45+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T20:08:27+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-9srwv (pod:container)","time":"2023-09-23T20:08:27+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T20:12:38+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-9srwv","time":"2023-09-23T20:12:39+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T20:12:39+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-23T20:12:41+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T20:12:41+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T20:12:41+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-23T20:12:54+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-9srwv","time":"2023-09-23T20:12:54+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-23T20:12:54+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-23T20:12:55+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-23T20:12:56+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-23T20:12:56+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-23T20:13:48+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-9srwv (pod:container)","time":"2023-09-23T20:13:48+02:00"}
+{"level":"info","msg":"dev:app open  Successfully opened http://localhost:8080","time":"2023-09-23T20:16:10+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T12:07:59+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-9srwv","time":"2023-09-24T12:07:59+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T12:07:59+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T12:08:00+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T12:08:01+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T12:08:01+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T12:09:05+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-9srwv (pod:container)","time":"2023-09-24T12:09:05+02:00"}
+{"level":"info","msg":"dev:app open  Successfully opened http://localhost:8080","time":"2023-09-24T12:11:26+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T12:12:17+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-667p5","time":"2023-09-24T12:12:19+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T12:12:19+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T12:12:19+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T12:12:24+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T12:12:24+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T12:12:25+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T12:12:35+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-667p5","time":"2023-09-24T12:12:36+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T12:12:36+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T12:12:36+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T12:12:37+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T12:12:37+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T12:12:38+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T12:13:15+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-667p5","time":"2023-09-24T12:13:16+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T12:13:16+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T12:13:16+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T12:13:17+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T12:13:17+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T12:13:18+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T12:15:05+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-jdznm","time":"2023-09-24T12:15:07+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T12:15:07+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T12:15:07+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T12:15:09+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T12:15:09+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T12:15:10+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T12:27:14+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-w4mrc","time":"2023-09-24T12:27:15+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T12:27:15+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T12:27:16+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T12:27:18+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T12:27:18+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T12:27:19+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T12:27:35+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-w4mrc","time":"2023-09-24T12:27:36+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T12:27:36+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T12:27:36+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T12:27:37+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T12:27:37+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T12:27:38+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T12:31:18+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-w4mrc","time":"2023-09-24T12:31:19+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T12:31:19+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T12:31:19+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T12:31:20+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T12:31:20+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T12:31:21+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T12:40:18+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-wslrg","time":"2023-09-24T12:40:20+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T12:40:20+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T12:40:21+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T12:40:23+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T12:40:23+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T12:40:24+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T13:08:55+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-pztqr","time":"2023-09-24T13:08:57+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T13:08:57+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T13:08:57+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T13:08:59+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T13:08:59+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T13:09:27+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T13:59:28+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-k76bv","time":"2023-09-24T13:59:30+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T13:59:30+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T13:59:31+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T13:59:33+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T13:59:33+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T14:00:17+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-k76bv (pod:container)","time":"2023-09-24T14:00:18+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T15:06:41+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-f86dc5c49-qscdr has status: ContainerCreating","time":"2023-09-24T15:06:51+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-f86dc5c49-qscdr has status: ContainerCreating","time":"2023-09-24T15:07:02+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-f86dc5c49-qscdr has status: ContainerCreating","time":"2023-09-24T15:07:12+02:00"}
+{"level":"warning","msg":"dev:app DevSpace is waiting, because Pod task-buddy-devspace-f86dc5c49-qscdr has status: ContainerCreating","time":"2023-09-24T15:07:22+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-qscdr","time":"2023-09-24T15:07:32+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T15:07:32+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T15:07:33+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T15:07:35+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T15:07:35+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T15:08:13+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-qscdr (pod:container)","time":"2023-09-24T15:08:13+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T22:34:30+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-qscdr","time":"2023-09-24T22:34:30+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T22:34:30+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T22:34:31+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T22:34:32+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T22:34:32+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T22:35:03+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T22:37:04+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-qscdr","time":"2023-09-24T22:37:04+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T22:37:04+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T22:37:05+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T22:37:06+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T22:37:06+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T22:37:35+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T22:37:49+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-qscdr","time":"2023-09-24T22:37:49+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T22:37:49+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T22:37:50+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T22:37:51+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T22:37:51+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T22:38:23+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T22:44:37+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-qscdr","time":"2023-09-24T22:44:37+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T22:44:37+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T22:44:38+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T22:44:39+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T22:44:39+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T22:45:08+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T22:46:55+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-qscdr","time":"2023-09-24T22:46:56+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T22:46:56+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T22:46:56+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T22:46:57+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T22:46:57+02:00"}
+{"level":"info","msg":"dev:app Waiting for pod to become ready...","time":"2023-09-24T22:47:22+02:00"}
+{"level":"info","msg":"dev:app Selected pod task-buddy-devspace-f86dc5c49-f8xzv","time":"2023-09-24T22:47:24+02:00"}
+{"level":"info","msg":"dev:app open  Opening 'http://localhost:8080' as soon as application will be started","time":"2023-09-24T22:47:24+02:00"}
+{"level":"info","msg":"dev:app ports Port forwarding started on: 8080 -\u003e 8080","time":"2023-09-24T22:47:24+02:00"}
+{"level":"info","msg":"dev:app sync  Sync started on: . \u003c-\u003e .","time":"2023-09-24T22:47:26+02:00"}
+{"level":"info","msg":"dev:app sync  Waiting for initial sync to complete","time":"2023-09-24T22:47:26+02:00"}
+{"level":"info","msg":"dev:app sync  Initial sync completed","time":"2023-09-24T22:48:37+02:00"}
+{"level":"info","msg":"dev:app term  Opening shell to task-buddy:task-buddy-devspace-f86dc5c49-f8xzv (pod:container)","time":"2023-09-24T22:48:37+02:00"}
+{"level":"info","msg":"dev:app open  Successfully opened http://localhost:8080","time":"2023-09-24T22:52:10+02:00"}

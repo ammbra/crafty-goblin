@@ -1,0 +1,4 @@
+images:
+    app:
+        imageName: ghcr.io/ammbra/task-buddy
+        tag: "1.0"

@@ -1,0 +1,92 @@
+[{
+  "apiVersion" : "apps/v1",
+  "kind" : "Deployment",
+  "metadata" : {
+    "annotations" : {
+      "app.dekorate.io/vcs-url" : "<<unknown>>"
+    },
+    "labels" : {
+      "app.kubernetes.io/name" : "task-buddy",
+      "app.kubernetes.io/version" : "1.0-SNAPSHOT"
+    },
+    "name" : "task-buddy"
+  },
+  "spec" : {
+    "replicas" : 1,
+    "selector" : {
+      "matchLabels" : {
+        "app.kubernetes.io/name" : "task-buddy",
+        "app.kubernetes.io/version" : "1.0-SNAPSHOT"
+      }
+    },
+    "template" : {
+      "metadata" : {
+        "labels" : {
+          "app.kubernetes.io/name" : "task-buddy",
+          "app.kubernetes.io/version" : "1.0-SNAPSHOT"
+        }
+      },
+      "spec" : {
+        "containers" : [ {
+          "env" : [ {
+            "name" : "KUBERNETES_NAMESPACE",
+            "valueFrom" : {
+              "fieldRef" : {
+                "fieldPath" : "metadata.namespace"
+              }
+            }
+          } ],
+          "image" : "ghcr.io/ammbra/task-buddy:1.0",
+          "imagePullPolicy" : "IfNotPresent",
+          "livenessProbe" : {
+            "httpGet" : {
+              "path" : "/actuator/health/liveness",
+              "port" : 8080,
+              "scheme" : "HTTP"
+            },
+            "successThreshold" : 1
+          },
+          "name" : "task-buddy",
+          "ports" : [ {
+            "containerPort" : 8080,
+            "name" : "http",
+            "protocol" : "TCP"
+          } ],
+          "readinessProbe" : {
+            "httpGet" : {
+              "path" : "/actuator/health/readiness",
+              "port" : 8080,
+              "scheme" : "HTTP"
+            }
+          }
+        } ]
+      }
+    }
+  }
+},{
+  "apiVersion" : "v1",
+  "kind" : "Service",
+  "metadata" : {
+    "annotations" : {
+      "app.dekorate.io/vcs-url" : "<<unknown>>"
+    },
+    "labels" : {
+      "app.kubernetes.io/name" : "task-buddy",
+      "app.kubernetes.io/version" : "1.0-SNAPSHOT"
+    },
+    "name" : "task-buddy"
+  },
+  "spec" : {
+    "ports" : [ {
+      "name" : "http",
+      "port" : 80,
+      "protocol" : "TCP",
+      "targetPort" : 8080
+    } ],
+    "selector" : {
+      "app.kubernetes.io/name" : "task-buddy",
+      "app.kubernetes.io/version" : "1.0-SNAPSHOT"
+    },
+    "type" : "ClusterIP"
+  }
+}]
