@@ -16,13 +16,20 @@
     </parent>
 
     <properties>
+        <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-        <maven.compiler.release>21</maven.compiler.release>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.release>${java.version}</maven.compiler.release>
         <maven.dependency.plugin.version>3.5.0</maven.dependency.plugin.version>
         <start-class>org.acme.example.TodoApplication</start-class>
+        <maven-enforcer-plugin.version>3.0.0-M3</maven-enforcer-plugin.version>
+        <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
+        <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
+        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
+        <maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
+        <maven-surefire-plugin.argLine>--enable-preview</maven-surefire-plugin.argLine>
     </properties>
 
     <dependencies>
@@ -62,38 +69,38 @@
             <plugins>
                 <plugin>
                     <artifactId>maven-clean-plugin</artifactId>
-                    <version>3.2.0</version>
+                    <version>${maven-clean-plugin.version}</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.10.1</version>
+                    <version>${maven-compiler-plugin.version}</version>
                     <configuration>
                         <fork>true</fork>
-                        <compilerArgs>--enable-preview</compilerArgs>
+                        <compilerArgs>${maven-surefire-plugin.argLine}</compilerArgs>
                     </configuration>
                 </plugin>
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.0.0-M7</version>
+                    <version>${maven-surefire-plugin.version}</version>
                     <configuration>
-                        <argLine>--enable-preview</argLine>
+                        <argLine>${maven-surefire-plugin.argLine}</argLine>
                     </configuration>
                 </plugin>
                 <plugin>
                     <artifactId>maven-failsafe-plugin</artifactId>
                     <configuration>
-                        <argLine>--enable-preview</argLine>
+                        <argLine>${maven-surefire-plugin.argLine}</argLine>
                     </configuration>
                 </plugin>
                 <plugin>
                     <artifactId>maven-jar-plugin</artifactId>
-                    <version>3.3.0</version>
+                    <version>${maven-jar-plugin.version}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                     <configuration>
-                        <jvmArguments>--enable-preview</jvmArguments>
+                        <jvmArguments>${maven-surefire-plugin.argLine}</jvmArguments>
                     </configuration>
                 </plugin>
             </plugins>
@@ -103,7 +110,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <jvmArguments>--enable-preview</jvmArguments>
+                    <jvmArguments>${maven-surefire-plugin.argLine}</jvmArguments>
                 </configuration>
             </plugin>
             <plugin>
@@ -129,7 +136,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
-                <version>3.0.0-M3</version>
+                <version>${maven-enforcer-plugin.version}</version>
                 <configuration>
                     <rules>
                         <dependencyConvergence />
