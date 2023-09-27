@@ -2,7 +2,7 @@ version: v2beta1
 deployments:
  test-dependency:
     helm:
-      componentChart: true
-      values:
-        containers:
-        - image: busybox
+       chart:
+         name: busy-chart
+         repo: busybox
+
