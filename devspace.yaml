@@ -3,6 +3,6 @@ deployments:
  test-dependency:
     helm:
        chart:
-         name: busy-chart
-         repo: busybox
+         name: nginx
+         repo: https://charts.bitnami.com/bitnami   
 
