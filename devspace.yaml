@@ -1,0 +1,8 @@
+version: v2beta1
+deployments:
+  - name: test-dependency
+    helm:
+      componentChart: true
+      values:
+        containers:
+        - image: busybox
