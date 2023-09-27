@@ -11,16 +11,17 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.3</version>
+        <version>3.1.4</version>
         <relativePath/>
     </parent>
 
     <properties>
+        <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-        <maven.compiler.release>21</maven.compiler.release>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.release>${java.version}</maven.compiler.release>
         <maven.dependency.plugin.version>3.5.0</maven.dependency.plugin.version>
         <start-class>org.acme.example.TodoApplication</start-class>
         <docker.image>localhost:5000/ammbra/${project.artifactId}</docker.image>
@@ -38,11 +39,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>io.dekorate</groupId>
@@ -106,6 +102,13 @@
         </pluginManagement>
         <plugins>
             <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <jvmArguments>--enable-preview</jvmArguments>
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <version>${maven.dependency.plugin.version}</version>
@@ -133,35 +136,6 @@
                     <rules>
                         <dependencyConvergence/>
                     </rules>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>build-image</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <layers>
-                        <enabled>true</enabled>
-                    </layers>
-                    <jvmArguments>--enable-preview</jvmArguments>
-                    <excludeDevtools>false</excludeDevtools>
-                    <image>
-                        <buildpacks>
-                            <buildpack>gcr.io/paketo-buildpacks/oracle</buildpack>
-                        </buildpacks>
-                        <name>${docker.image}</name>
-                        <env>
-                            <BP_JVM_TYPE>JDK</BP_JVM_TYPE>
-                            <BP_JVM_VERSION>${maven.compiler.source}</BP_JVM_VERSION>
-                        </env>
-                    </image>
                 </configuration>
             </plugin>
         </plugins>

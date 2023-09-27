@@ -16,8 +16,4 @@ public class IndexController {
 		response.sendRedirect("todo.html");
 	}
 
-	@RequestMapping( value = "hello",method = RequestMethod.GET)
-	public String hello() {
-		return "Hello";
-	}
 }
