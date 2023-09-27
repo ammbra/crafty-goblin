@@ -1,6 +1,6 @@
 version: v2beta1
 deployments:
-  - name: test-dependency
+ test-dependency:
     helm:
       componentChart: true
       values:
