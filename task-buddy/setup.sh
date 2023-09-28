@@ -3,13 +3,13 @@
 # Set maven build options
 MAVEN_OPTS="-XX:+TieredCompilation -XX:TieredStopAtLevel=1"
 
-# Remove old .jar files
+## Remove old .jar files
 rm -f target/*.jar
-
-# Build jar file
-mvn package -T 1C -U
-
-# Rename jar file
+#
+## Build jar file
+mvn package -DskipTests
+#
+## Rename jar file
 cp target/*.jar target/main.jar
 
 # Start application if `run` argument is passed
