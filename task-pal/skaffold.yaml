@@ -8,32 +8,33 @@ build:
     useDockerCLI: false
   artifacts:
     - image: ghcr.io/ammbra/task-pal
-      docker:
-        dockerfile: Dockerfile
+      custom:
+        buildCommand: ./mvnw verify -Ddekorate.docker.auto-build-enabled=true -Ddekorate.docker.image=localhost:5000/task-pal
+        dependencies:
+          paths:
+            - pom.xml
+            - src/main/*
+      sync:
+        infer:
+          - './src/main/*'
 
 manifests:
   rawYaml:
     - k8s/kubernetes.yml
-
 profiles:
   - name: dev
     build:
       artifacts:
         - image: ghcr.io/ammbra/task-pal  # Development image for Rancher Desktop
-          custom:
-            buildCommand: ./mvnw verify -Ddekorate.docker.auto-build-enabled=true -Ddekorate.docker.image=localhost:5000/task-pal
-            dependencies:
-              paths:
-                - pom.xml
-                - src/main/*
-          sync:
-            infer:
-              - './src/main/*'
+  - name: stage
+    build:
+      artifacts:
+        - image: ghcr.io/ammbra/task-pal  # Development image for Rancher Desktop
+          docker:
+            dockerfile: Dockerfile
   - name: prod
     build:
       artifacts:
         - image: ghcr.io/ammbra/task-pal  # Development image for Rancher Desktop
           docker:
             dockerfile: Dockerfile
-
-
