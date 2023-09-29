@@ -27,10 +27,6 @@ ENV MAVEN_CONFIG "/home/.m2"
 # Create project directory (workdir)
 WORKDIR /app
 
-# Install maven dependency packages
-COPY pom.xml .
-RUN mvn -T 1C install && rm -rf target
-
 # Add source code files to WORKDIR
 ADD . .
 

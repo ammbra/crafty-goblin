@@ -24,7 +24,9 @@ ENV MAVEN_CONFIG "/home/.m2"
 
 COPY . /code
 RUN echo '{ "allow_root": true }' > rm -Rf /code/target && \
-	cd /code/ && mvn verify
+	cd /code/ && ./setup.sh
+
+ENTRYPOINT ["./code/setup.sh", "run"]
 
 # Define your base image
 FROM container-registry.oracle.com/os/oraclelinux:9
