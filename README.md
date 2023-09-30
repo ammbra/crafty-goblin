@@ -4,7 +4,7 @@ This repository contains the application code and setup used to inspect DevSpace
 
 ## Working with DevSpace
 
-Project [task-buddy](https://github.com/ammbra/crafty-goblin/tree/main/task-buddy) contains the application on which DevSpace was demonstrated.
+Project [task-buddy](https://github.com/ammbra/crafty-goblin/tree/main/task-buddy) contains the application on which DevSpace was demonstrated. Script `setup.sh` is based on this example: https://github.com/devspace-sh/devspace/tree/main/examples/spring-boot-mysql
 
 ### Generate the k8s manifests
 
